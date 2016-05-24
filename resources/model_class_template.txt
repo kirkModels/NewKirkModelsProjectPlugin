@@ -1,0 +1,19 @@
+package %s;
+
+public class %s extends Model {
+	
+	public static QuerySet<%s> objects;
+	
+	/*
+	 * Put your fields here. If the fields extend
+	 * SavableField (i.e. are of class CharField,
+	 * IntegerField or other classes contained in
+	 * kirkModels.fields, then they will be included
+	 * in the database table defined for this class.
+	 */
+	
+	public String toString() {
+		return super.toString();
+	}
+	
+}

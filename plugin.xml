@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="ianmann.kirkModels.newKirkModelsProject.KirkModels"
+            name="KirkModels">
+      </category>
+      <wizard
+            category="ianmann.kirkModels.newKirkModelsProject.KirkModels"
+            class="ianmann.kirkmodels.newkirkmodelsproject.KirkModelsProjectWizard"
+            id="ianmann.kirkModels.newKirkModelsProject.newProject"
+            name="KirkModels Project"
+            project="true">
+      </wizard>
+   </extension>
+
+</plugin>
